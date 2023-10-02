@@ -3,6 +3,6 @@ spring:
     mongodb:
       database: books
       host: localhost
-      port: 5000
+      port: 27017
       username: admin
       password: admin
