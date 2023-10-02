@@ -1,2 +1,8 @@
-message:
-  'hello mongo'
+spring:
+  data:
+    mongodb:
+      database: books
+      host: localhost
+      port: 5000
+      username: admin
+      password: admin
