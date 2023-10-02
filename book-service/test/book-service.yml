@@ -1,11 +1,8 @@
-server:
-  port: 8000
-
 spring:
   data:
     mongodb:
       database: books
-      host: localhost
+      host: mongodb
       port: 27017
       username: admin
       password: admin
