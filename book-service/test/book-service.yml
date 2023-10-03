@@ -1,6 +1,9 @@
 spring:
   data:
-    mongodb:
-      database: books
-      host: mongo
-      port: 27017
+  mongodb:
+authentication-database: admin
+username: root
+password: root
+database: books
+port: 27017
+host: localhost
