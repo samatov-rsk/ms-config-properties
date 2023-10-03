@@ -1,8 +1,4 @@
 spring:
   data:
     mongodb:
-      database: books
-      host: localhost
-      port: 5000
-      username: admin
-      password: admin
+      uri: mongodb://localhost:27017/books
